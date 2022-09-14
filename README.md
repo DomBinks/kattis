@@ -2,14 +2,18 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 4
-##### Easy: 4
+### Problems solved: 8
+##### Easy: 8
 ##### Medium: 0
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Algorithms/Techniques |
 | ---- |  ---- | ---------- | -------- | --------------------- |
+| 2022-09-15 | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho/) | Easy(1.3) | [C++](./easy/echoechoecho.cpp) | |
+| 2022-09-15 | [Electrical outlets](https://open.kattis.com/problems/electricaloutlets/) | Easy(1.3) | [C++](./easy/electricaloutlets.cpp) | |
+| 2022-09-15 | [Finding An A](https://open.kattis.com/problems/findingana/) | Easy(1.3) | [C++](./easy/findingana.cpp) | |
+| 2022-09-15 | [FYI](https://open.kattis.com/problems/fyi/) | Easy(1.3) | [C++](./easy/fyi.cpp) | |
 | 2022-09-15 | [GCVWR](https://open.kattis.com/problems/gcvwr/) | Easy(1.3) | [C++](./easy/gcvwr.cpp) | |
 | 2022-09-14 | [Greetings!](https://open.kattis.com/problems/greetings2/) | Easy(1.3) | [C++](./easy/greetings2.cpp) | |
 | 2022-09-14 | [Which is Greater?](https://open.kattis.com/problems/whichisgreater/) | Easy(1.3) | [C++](./easy/whichisgreater.cpp) | |
