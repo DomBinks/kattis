@@ -1,6 +1,6 @@
 # kattis
 This repository contains my solutions to various Kattis problems.
-<br>[Link to my account (DomBinks)](https://open.kattis.com/user/dombinks/)<br>
+<br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
 ### Problems solved: 3
 ##### Easy: 3
