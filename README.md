@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 8
-##### Easy: 8
+### Problems solved: 9
+##### Easy: 9
 ##### Medium: 0
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Algorithms/Techniques |
 | ---- |  ---- | ---------- | -------- | --------------------- |
+| 2022-09-25 | [Graduation](https://open.kattis.com/problems/skolavslutningen) | Easy(1.2-2.1) | [C++](./easy/graduation.cpp) | |
 | 2022-09-24 | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | Hard(1.2-5.8) | [C++(Partial solution - Slow)](./hard/keystrokes.cpp) | |
 | 2022-09-15 | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho/) | Easy(1.3) | [C++](./easy/echoechoecho.cpp) | |
 | 2022-09-15 | [Electrical outlets](https://open.kattis.com/problems/electricaloutlets/) | Easy(1.3) | [C++](./easy/electricaloutlets.cpp) | |
