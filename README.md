@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Algorithms/Techniques |
 | ---- |  ---- | ---------- | -------- | --------------------- |
+| 2022-09-25 | [Array Smoothening](https://open.kattis.com/problems/arraysmoothening) | Easy(1.2-2.8) | [C++(Partial solution - Slow](./easy/arraysmoothening.cpp) | |
 | 2022-09-25 | [Graduation](https://open.kattis.com/problems/skolavslutningen) | Easy(1.2-2.1) | [C++](./easy/graduation.cpp) | |
 | 2022-09-24 | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | Hard(1.2-5.8) | [C++(Partial solution - Slow)](./hard/keystrokes.cpp) | |
 | 2022-09-15 | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho/) | Easy(1.3) | [C++](./easy/echoechoecho.cpp) | |
