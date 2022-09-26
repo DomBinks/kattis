@@ -2,15 +2,16 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 9
-##### Easy: 9
+### Problems solved: 10
+##### Easy: 10
 ##### Medium: 0
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Algorithms/Techniques |
 | ---- |  ---- | ---------- | -------- | --------------------- |
-| 2022-09-25 | [Array Smoothening](https://open.kattis.com/problems/arraysmoothening) | Easy(1.2-2.8) | [C++(Partial solution - Slow](./easy/arraysmoothening.cpp) | |
+| 2022-09-26 | [Birthday Memorization](https://open.kattis.com/problems/fodelsedagsmemorisering) | Easy(1.2-1.6) | [C++](./easy/birthdaymemorization.cpp) | |
+| 2022-09-25 | [Array Smoothening](https://open.kattis.com/problems/arraysmoothening) | Easy(1.2-2.8) | [C++(Partial solution - Slow)](./easy/arraysmoothening.cpp) | |
 | 2022-09-25 | [Graduation](https://open.kattis.com/problems/skolavslutningen) | Easy(1.2-2.1) | [C++](./easy/graduation.cpp) | |
 | 2022-09-24 | [Keystrokes](https://open.kattis.com/problems/lyklagangriti) | Hard(1.2-5.8) | [C++(Partial solution - Slow)](./hard/keystrokes.cpp) | |
 | 2022-09-15 | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho/) | Easy(1.3) | [C++](./easy/echoechoecho.cpp) | |
