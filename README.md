@@ -2,14 +2,17 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 11
-##### Easy: 11
+### Problems solved: 14
+##### Easy: 14
 ##### Medium: 0
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Algorithms/Techniques |
 | ---- |  ---- | ---------- | -------- | --------------------- |
+| 2022-10-04 | [Simon Says](https://open.kattis.com/problems/simonsays/) | Easy(1.5) | [C++](./easy/simonsays.cpp) | |
+| 2022-10-03 | [Railroad](https://open.kattis.com/problems/railroad2/) | Easy(1.5) | [C++](./easy/railroad2.cpp) | |
+| 2022-10-03 | [Triangle Area](https://open.kattis.com/problems/triarea/) | Easy(1.4) | [C++](./easy/triarea.cpp) | |
 | 2022-09-28 | [Homework](https://open.kattis.com/problems/heimavinna/) | Easy(1.1-1.5) | [C++](./easy/homework.cpp) | |
 | 2022-09-26 | [Birthday Memorization](https://open.kattis.com/problems/fodelsedagsmemorisering/) | Easy(1.2-1.6) | [C++](./easy/birthdaymemorization.cpp) | |
 | 2022-09-25 | [Array Smoothening](https://open.kattis.com/problems/arraysmoothening/) | Easy(1.2-2.8) | [C++(Partial solution - Slow)](./easy/arraysmoothening.cpp) | |
