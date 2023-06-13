@@ -8,8 +8,8 @@ This repository contains my solutions to various Kattis problems.
 ##### Hard: 0
 <br>
 
-| Date |  Name | Difficulty | Solution | Algorithms/Techniques |
-| ---- |  ---- | ---------- | -------- | --------------------- |
+| Date |  Name | Difficulty | Solution | Notes |
+| ---- |  ---- | ---------- | -------- | ----- |
 | 2022-10-05 | [Magic Trick](https://open.kattis.com/problems/magictrick/) | Easy(1.4) | [C++](./easy/magictrick.cpp) | |
 | 2022-10-04 | [Simon Says](https://open.kattis.com/problems/simonsays/) | Easy(1.5) | [C++](./easy/simonsays.cpp) | |
 | 2022-10-03 | [Railroad](https://open.kattis.com/problems/railroad2/) | Easy(1.5) | [C++](./easy/railroad2.cpp) | |
