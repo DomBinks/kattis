@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 15
-##### Easy: 15
+### Problems solved: 16
+##### Easy: 16
 ##### Medium: 0
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Algorithms/Techniques |
 | ---- |  ---- | ---------- | -------- | --------------------- |
+| 2022-06-13 | [Arrangement](https://open.kattis.com/problems/upprodun/) | Easy(1.2-1.6) | [C++](./easy/arrangement.cpp) | |
 | 2022-10-05 | [Magic Trick](https://open.kattis.com/problems/magictrick/) | Easy(1.4) | [C++](./easy/magictrick.cpp) | |
 | 2022-10-04 | [Simon Says](https://open.kattis.com/problems/simonsays/) | Easy(1.5) | [C++](./easy/simonsays.cpp) | |
 | 2022-10-03 | [Railroad](https://open.kattis.com/problems/railroad2/) | Easy(1.5) | [C++](./easy/railroad2.cpp) | |
