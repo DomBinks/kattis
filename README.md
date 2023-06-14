@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-06-14 | [99 Problems](https://open.kattis.com/problems/99problems2/) | Medium(1.2-3.0) | [C++(Partial solution - Slow)](./medium/99problems2.cpp) | |
 | 2022-06-14 | [Cut in Line](https://open.kattis.com/problems/cutinline/) | Easy(1.6) | [C++](./easy/cutinline.cpp) | Strings|
 | 2022-06-13 | [Arrangement](https://open.kattis.com/problems/upprodun/) | Easy(1.2-1.6) | [C++](./easy/arrangement.cpp) | |
 | 2022-10-05 | [Magic Trick](https://open.kattis.com/problems/magictrick/) | Easy(1.4) | [C++](./easy/magictrick.cpp) | |
