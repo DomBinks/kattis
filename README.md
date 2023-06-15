@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 17
-##### Easy: 17
+### Problems solved: 18
+##### Easy: 18
 ##### Medium: 0
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-06-15 | [Building Highways](https://open.kattis.com/problems/buildinghighways/) | Easy(1.2-1.7) | [C++](./easy/buildinghighways.cpp) | |
 | 2022-06-14 | [99 Problems](https://open.kattis.com/problems/99problems2/) | Medium(1.2-3.0) | [C++(Partial solution - Slow)](./medium/99problems2.cpp) | |
 | 2022-06-14 | [Cut in Line](https://open.kattis.com/problems/cutinline/) | Easy(1.6) | [C++](./easy/cutinline.cpp) | Strings|
 | 2022-06-13 | [Arrangement](https://open.kattis.com/problems/upprodun/) | Easy(1.2-1.6) | [C++](./easy/arrangement.cpp) | |
