@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 19
-##### Easy: 19
+### Problems solved: 20
+##### Easy: 20
 ##### Medium: 0
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-06-19 | [Cocktail](https://open.kattis.com/problems/cocktail/) | Easy(2.7) | [C++](./easy/cocktail.cpp) | |
 | 2022-06-19 | [Parking](https://open.kattis.com/problems/parking2/) | Easy(1.5) | [C++](./easy/parking2.cpp) | |
 | 2022-06-15 | [Building Highways](https://open.kattis.com/problems/buildinghighways/) | Easy(1.2-1.7) | [C++](./easy/buildinghighways.cpp) | |
 | 2022-06-14 | [99 Problems](https://open.kattis.com/problems/99problems2/) | Medium(1.2-3.0) | [C++(Partial solution - Slow)](./medium/99problems2.cpp) | |
