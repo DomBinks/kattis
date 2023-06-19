@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-06-19 | [Air Conditioned Minions](https://open.kattis.com/problems/airconditioned/) | Easy(3.3) | [C++(Partitial solution - Wrong answer)](./medium/airconditioned.cpp) | |
 | 2022-06-19 | [Cocktail](https://open.kattis.com/problems/cocktail/) | Easy(2.7) | [C++](./easy/cocktail.cpp) | |
 | 2022-06-19 | [Parking](https://open.kattis.com/problems/parking2/) | Easy(1.5) | [C++](./easy/parking2.cpp) | |
 | 2022-06-15 | [Building Highways](https://open.kattis.com/problems/buildinghighways/) | Easy(1.2-1.7) | [C++](./easy/buildinghighways.cpp) | |
