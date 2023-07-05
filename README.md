@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 25
-##### Easy: 24
+### Problems solved: 26
+##### Easy: 25
 ##### Medium: 1
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-05 | [Faktor](https://open.kattis.com/problems/faktor/) | Easy(1.3) | [C++](./easy/faktor.cpp) | |
 | 2022-07-05 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz/) | Easy(1.4) | [C++](./easy/fizzbuzz.cpp) | |
 | 2022-07-03 | [Sequential Manufacturing](https://open.kattis.com/problems/sequentialmanufacturing/) | Medium(2.9) | [C++](./medium/sequentialmanufacturing.cpp) | Big numbers |
 | 2022-07-03 | [Card Trick](https://open.kattis.com/problems/cardtrick2/) | Easy(1.7) | [C++](./easy/cardtrick2.cpp) | Circular lists |
