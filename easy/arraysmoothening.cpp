@@ -1,50 +1,59 @@
 #include <iostream>
-#include <vector>
+#include <algorithm>
+#include <queue>
 #include <map>
+
 using namespace std;
 
 int main()
 {
-    int N, K;
-    cin >> N >> K;
-    map<int, int> occurrences;
+    // Use fast IO
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    for(int i = 0; i < N; i++)
+    // Get n and k
+    int n, k;
+    cin >> n >> k;
+
+    // Store the occurrences of each number in a map
+    map<int, int> occurrences;
+    for(int i = 0; i < n; i++)
     {
         int num;
         cin >> num;
-        occurrences[num]++;
+
+        if(occurrences.find(num) == occurrences.end())
+        {
+            occurrences[num] = 1;
+        }
+        else
+        {
+            occurrences[num]++;
+        }
     }
 
-    int max;
-    vector<int> maxes;
-    while(K >= 0)
+    // Store the amounts of occurrences
+    priority_queue<int> amounts;
+
+    // Put each amount of occurrences into the PQ
+    map<int, int>::iterator it = occurrences.begin();
+    while(it != occurrences.end())
     {
-        max = 0;
-        maxes.clear();
-        for(map<int, int>::iterator j = occurrences.begin(); j != occurrences.end(); j++)
-        {
-            if(j->second > max)
-            {
-                max = j->second;
-                maxes.clear();
-                maxes.push_back(j->first);
-            }
-            else if(j->second == max)
-                maxes.push_back(j->first);
-        }
-
-        if(K >= maxes.size())
-        {
-            for(vector<int>::iterator k = maxes.begin(); k != maxes.end(); k++)
-            {
-                occurrences[*k]--;
-            }
-        }
-
-        K -= maxes.size();
+        amounts.push(it->second);
+        it++;
     }
 
-    cout << max << endl;
+    // For the number of removals
+    while(k > 0)
+    {
+        int x = amounts.top(); // Get the highest amount of occurrences
+        amounts.pop(); // Remove it from the PQ
+        amounts.push(x-1); // Add the decremented amount of occurrences to the PQ
+        k--; // Decrement the number of removals left
+    }
+
+    // Output the top of the PQ as this is the highest amount of occurrences
+    cout << amounts.top() << endl;
+
     return 0;
 }
