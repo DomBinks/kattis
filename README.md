@@ -34,7 +34,6 @@ This repository contains my solutions to various Kattis problems.
 | 2022-09-28 | [Homework](https://open.kattis.com/problems/heimavinna/) | Easy(1.1-1.5) | [C++](./easy/homework.cpp) | |
 | 2022-09-26 | [Birthday Memorization](https://open.kattis.com/problems/fodelsedagsmemorisering/) | Easy(1.2-1.6) | [C++](./easy/birthdaymemorization.cpp) | |
 | 2022-09-25 | [Graduation](https://open.kattis.com/problems/skolavslutningen/) | Easy(1.2-2.1) | [C++](./easy/graduation.cpp) | |
-| 2022-09-24 | [Keystrokes](https://open.kattis.com/problems/lyklagangriti/) | Hard(1.2-5.8) | [C++(Partial solution - Slow)](./hard/keystrokes.cpp) | |
 | 2022-09-15 | [Echo Echo Echo](https://open.kattis.com/problems/echoechoecho/) | Easy(1.3) | [C++](./easy/echoechoecho.cpp) | |
 | 2022-09-15 | [Electrical outlets](https://open.kattis.com/problems/electricaloutlets/) | Easy(1.3) | [C++](./easy/electricaloutlets.cpp) | |
 | 2022-09-15 | [Finding An A](https://open.kattis.com/problems/findingana/) | Easy(1.3) | [C++](./easy/findingana.cpp) | |
