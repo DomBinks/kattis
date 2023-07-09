@@ -2,15 +2,18 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 30
-##### Easy: 27
+### Problems solved: 33
+##### Easy: 30
 ##### Medium: 3
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
-| 2022-07-09 | [Ninety-nine](https://open.kattis.com/problems/ninetynine) | Medium(1.2-3.2) | [C++(Partial solution - Wrong answer)](./medium/ninetynine.cpp) | |
+| 2022-07-09 | [Sort Two Numbers](https://open.kattis.com/problems/sorttwonumbers/) | Easy(1.2) | [C++)](./easy/sorttwonumbers.cpp) | |
+| 2022-07-09 | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop/) | Easy(1.2) | [C++)](./easy/timeloop.cpp) | |
+| 2022-07-09 | [Take Two Stones](https://open.kattis.com/problems/taketwostones/) | Easy(1.2) | [C++)](./easy/taketwostones.cpp) | |
+| 2022-07-09 | [Ninety-nine](https://open.kattis.com/problems/ninetynine/) | Medium(1.2-3.2) | [C++(Partial solution - Wrong answer)](./medium/ninetynine.cpp) | |
 | 2022-07-06 | [All Just A Dream](https://open.kattis.com/problems/dream/) | Medium(5.4) | [C++](./medium/dream.cpp) | Hash map |
 | 2022-07-06 | [Keystrokes](https://open.kattis.com/problems/lyklagangriti/) | Medium(1.1-5.4) | [C++](./medium/lyklagangriti.cpp) | Doubly linked list |
 | 2022-07-06 | [Array Smoothening](https://open.kattis.com/problems/arraysmoothening/) | Easy(1.2-2.8) | [C++](./easy/arraysmoothening.cpp) | Hash map, Priority queue |
