@@ -10,9 +10,10 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-09 | [Ninety-nine](https://open.kattis.com/problems/ninetynine) | Medium(1.2-3.2) | [C++(Partial solution - Wrong answer)](./medium/ninetynine.cpp) | |
 | 2022-07-06 | [All Just A Dream](https://open.kattis.com/problems/dream/) | Medium(5.4) | [C++](./medium/dream.cpp) | Hash map |
 | 2022-07-06 | [Keystrokes](https://open.kattis.com/problems/lyklagangriti/) | Medium(1.1-5.4) | [C++](./medium/lyklagangriti.cpp) | Doubly linked list |
-| 2022-07-06 | [Array Smoothening](https://open.kattis.com/problems/arraysmoothening/) | Easy(1.2-2.8) | [C++](./easy/arraysmoothening.cpp) | Hash map, Priority Queue |
+| 2022-07-06 | [Array Smoothening](https://open.kattis.com/problems/arraysmoothening/) | Easy(1.2-2.8) | [C++](./easy/arraysmoothening.cpp) | Hash map, Priority queue |
 | 2022-07-05 | [Class Field Trip](https://open.kattis.com/problems/classfieldtrip/) | Easy(1.4) | [C++](./easy/classfieldtrip.cpp) | Merge sort |
 | 2022-07-05 | [Faktor](https://open.kattis.com/problems/faktor/) | Easy(1.3) | [C++](./easy/faktor.cpp) | |
 | 2022-07-05 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz/) | Easy(1.4) | [C++](./easy/fizzbuzz.cpp) | |
