@@ -4,12 +4,13 @@ This repository contains my solutions to various Kattis problems.
 <br>
 ### Problems solved: 35
 ##### Easy: 32
-##### Medium: 3
+##### Medium: 4
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-10 | [Good morning](https://open.kattis.com/problems/goodmorning/) | Medium(2.9) | [C++](./medium/goodmorning.cpp) | |
 | 2022-07-10 | [3D Printed Statues](https://open.kattis.com/problems/3dprinter/) | Easy(2.7) | [C++](./easy/3dprinter.cpp) | |
 | 2022-07-09 | [Dice Cup](https://open.kattis.com/problems/dicecup/) | Easy(1.4) | [C++](./easy/dicecup.cpp) | |
 | 2022-07-09 | [Sort Two Numbers](https://open.kattis.com/problems/sorttwonumbers/) | Easy(1.2) | [C++](./easy/sorttwonumbers.cpp) | |
