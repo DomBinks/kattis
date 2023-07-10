@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 34
-##### Easy: 31
+### Problems solved: 35
+##### Easy: 32
 ##### Medium: 3
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-10 | [3D Printed Statues](https://open.kattis.com/problems/3dprinter/) | Easy(2.7) | [C++](./easy/3dprinter.cpp) | |
 | 2022-07-09 | [Dice Cup](https://open.kattis.com/problems/dicecup/) | Easy(1.4) | [C++](./easy/dicecup.cpp) | |
 | 2022-07-09 | [Sort Two Numbers](https://open.kattis.com/problems/sorttwonumbers/) | Easy(1.2) | [C++](./easy/sorttwonumbers.cpp) | |
 | 2022-07-09 | [Stuck In A Time Loop](https://open.kattis.com/problems/timeloop/) | Easy(1.2) | [C++](./easy/timeloop.cpp) | |
