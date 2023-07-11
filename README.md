@@ -2,15 +2,25 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 39
-##### Easy: 34
+### Problems solved: 49
+##### Easy: 44
 ##### Medium: 5
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
-| 2022-07-11 | [Conga Line](https://open.kattis.com/problems/congaline?tab=submissions) | Medium(1.2-4.0) | [C++(Partial solution - Slow)](./medium/congaline.cpp) | |
+| 2022-07-11 | [Filip](https://open.kattis.com/problems/filip/) | Easy(1.3) | [C++](./easy/filip.cpp) | |
+| 2022-07-11 | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone/) | Easy(1.3) | [C++](./easy/hissingmicrophone.cpp) | |
+| 2022-07-11 | [Jack-O'-Lantern Juxtaposition](https://open.kattis.com/problems/jackolanternjuxtaposition/) | Easy(1.3) | [C++](./easy/jackolanternjuxtaposition.cpp) | |
+| 2022-07-11 | [Jumbo Javelin](https://open.kattis.com/problems/jumbojavelin/) | Easy(1.3) | [C++](./easy/jumbojavelin.cpp) | |
+| 2022-07-11 | [Knight Packing](https://open.kattis.com/problems/knightpacking/) | Easy(1.3) | [C++](./easy/knightpacking.cpp) | |
+| 2022-07-11 | [Metronome](https://open.kattis.com/problems/metronome/) | Easy(1.3) | [C++](./easy/metronome.cpp) | |
+| 2022-07-11 | [N-sum](https://open.kattis.com/problems/nsum/) | Easy(1.3) | [C++](./easy/nsum.cpp) | |
+| 2022-07-11 | [Quality-Adjusted Life-Year](https://open.kattis.com/problems/qaly/) | Easy(1.3) | [C++](./easy/qaly.cpp) | |
+| 2022-07-11 | [R2](https://open.kattis.com/problems/r2/) | Easy(1.3) | [C++](./easy/r2.cpp) | |
+| 2022-07-11 | [Quadrant Selection](https://open.kattis.com/problems/quadrant/) | Easy(1.2) | [C++](./easy/quadrant.cpp) | |
+| 2022-07-11 | [Conga Line](https://open.kattis.com/problems/congaline/) | Medium(1.2-4.0) | [C++(Partial solution - Slow)](./medium/congaline.cpp) | |
 | 2022-07-11 | [Logo](https://open.kattis.com/problems/logo/) | Easy(2.6) | [C++](./easy/logo.cpp) | Trigonometry |
 | 2022-07-11 | [Bus Numbers](https://open.kattis.com/problems/busnumbers/) | Easy(2.7) | [C++](./easy/busnumbers.cpp) | Sliding window | 
 | 2022-07-10 | [Foosball Dynasty](https://open.kattis.com/problems/foosball/) | Medium(4.0) | [C++](./medium/foosball.cpp) | |
