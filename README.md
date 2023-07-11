@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-11 | [Conga Line](https://open.kattis.com/problems/congaline?tab=submissions) | Medium(1.2-4.0) | [C++(Partial solution - Slow)](./medium/congaline.cpp) | |
 | 2022-07-11 | [Logo](https://open.kattis.com/problems/logo/) | Easy(2.6) | [C++](./easy/logo.cpp) | Trigonometry |
 | 2022-07-11 | [Bus Numbers](https://open.kattis.com/problems/busnumbers/) | Easy(2.7) | [C++](./easy/busnumbers.cpp) | Sliding window | 
 | 2022-07-10 | [Foosball Dynasty](https://open.kattis.com/problems/foosball/) | Medium(4.0) | [C++](./medium/foosball.cpp) | |
