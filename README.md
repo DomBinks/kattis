@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 38
-##### Easy: 33
+### Problems solved: 39
+##### Easy: 34
 ##### Medium: 5
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-11 | [Logo](https://open.kattis.com/problems/logo/) | Easy(2.6) | [C++](./easy/logo.cpp) | Trigonometry |
 | 2022-07-11 | [Bus Numbers](https://open.kattis.com/problems/busnumbers/) | Easy(2.7) | [C++](./easy/busnumbers.cpp) | Sliding window | 
 | 2022-07-10 | [Foosball Dynasty](https://open.kattis.com/problems/foosball/) | Medium(4.0) | [C++](./medium/foosball.cpp) | |
 | 2022-07-10 | [Good morning](https://open.kattis.com/problems/goodmorning/) | Medium(2.9) | [C++](./medium/goodmorning.cpp) | |
