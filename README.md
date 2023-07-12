@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 49
+### Problems solved: 50
 ##### Easy: 44
-##### Medium: 5
+##### Medium: 6
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-12 | [Minimum Spanning Tree](https://open.kattis.com/problems/minspantree/) | Medium(4.7) | [C++](./medium/minspantree.cpp) | Minimum spanning tree, Prim's algorithm |
 | 2022-07-11 | [Filip](https://open.kattis.com/problems/filip/) | Easy(1.3) | [C++](./easy/filip.cpp) | |
 | 2022-07-11 | [Hissing Microphone](https://open.kattis.com/problems/hissingmicrophone/) | Easy(1.3) | [C++](./easy/hissingmicrophone.cpp) | |
 | 2022-07-11 | [Jack-O'-Lantern Juxtaposition](https://open.kattis.com/problems/jackolanternjuxtaposition/) | Easy(1.3) | [C++](./easy/jackolanternjuxtaposition.cpp) | |
