@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-14 | [10 Kinds of People](https://open.kattis.com/problems/10kindsofpeople/) | Medium(5.1) | [C++(Partial solution - Slow)](./medium/10kindsofpeople.cpp) | Shortest path, A* search |
 | 2022-07-14 | [Backspace](https://open.kattis.com/problems/backspace/) | Medium(3.1) | [C++](./medium/backspace.cpp) | |
 | 2022-07-13 | [CD](https://open.kattis.com/problems/cd/) | Medium(4.7) | [C++](./medium/cd.cpp) | |
 | 2022-07-12 | [A Different Problem](https://open.kattis.com/problems/different/) | Easy(2.7) | [C++](./easy/different.cpp) | |
