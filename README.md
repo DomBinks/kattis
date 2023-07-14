@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 52
+### Problems solved: 53
 ##### Easy: 45
-##### Medium: 7
+##### Medium: 8
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-14 | [Backspace](https://open.kattis.com/problems/backspace/) | Medium(3.1) | [C++](./medium/backspace.cpp) | |
 | 2022-07-13 | [CD](https://open.kattis.com/problems/cd/) | Medium(4.7) | [C++](./medium/cd.cpp) | |
 | 2022-07-12 | [A Different Problem](https://open.kattis.com/problems/different/) | Easy(2.7) | [C++](./easy/different.cpp) | |
 | 2022-07-12 | [Minimum Spanning Tree](https://open.kattis.com/problems/minspantree/) | Medium(4.7) | [C++](./medium/minspantree.cpp) | Minimum spanning tree, Prim's algorithm |
