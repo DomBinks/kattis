@@ -1,88 +1,58 @@
 #include <iostream>
-#include <vector>
-#include <queue>
-#include<tuple>
+#include <map>
+#include <algorithm>
 
 using namespace std;
 
-bool search(int r1, int c1, int r2, int c2, int r, int c, char **grid, char num)
+// Mark the cells that surround x,y as being in the same area if they are the
+// same digit
+void mark(int y, int x, int r, int c, string **grid, string digit, string area)
 {
-    // If the current is the destination
-    if(r1 == r2 && c1 == c2)
-    {
-        return true;
-    }
-
-    // Create a priority queue to store the positions to look at, based upon
-    // the minimum Manhattan distance to the end
-    priority_queue<tuple<int, int, int>, vector<tuple<int, int, int>>, greater<tuple<int, int, int>>> pq;
-
     // If there is a cell above
-    if(r1-1 >= 1)
+    if(y-1 >= 1)
     {
-        // If the cell above contains num
-        if(grid[r1-1][c1] == num)
+        // If the cell above is the same digit
+        if(grid[y-1][x] == digit)
         {
-            // Add this position to the PQ
-            pq.push(make_tuple(abs((r1-1)-r2)+abs(c1 - c2), r1-1, c1));
+            grid[y-1][x] = area; // Mark the cell
+            mark(y-1, x, r, c, grid, digit, area); // Recursively mark adjacent cells
         }
     }
+    
     // If there is a cell below
-    if(r1+1 <= r)
+    if(y+1 <= r)
     {
-        // If the cell below contains num
-        if(grid[r1+1][c1] == num)
+        // If the cell below is the same digit
+        if(grid[y+1][x] == digit)
         {
-            // Add this position to the PQ
-            pq.push(make_tuple(abs((r1+1)-r2)+abs(c1 - c2), r1+1, c1));
+            grid[y+1][x] = area; // Mark the cell
+            mark(y+1, x, r, c, grid, digit, area); // Recursively mark adjacent cells
         }
     }
+
     // If there is a cell to the left
-    if(c1-1 >= 1)
+    if(x-1 >= 1)
     {
-        // If the cell to the left contains num
-        if(grid[r1][c1-1] == num)
+        // If the cell to the left is the same digit
+        if(grid[y][x-1] == digit)
         {
-            // Add this position to the PQ
-            pq.push(make_tuple(abs(r1-r2)+abs((c1-1) - c2), r1, c1-1));
+            grid[y][x-1] = area; // Mark the cell
+            mark(y, x-1, r, c, grid, digit, area); // Recursively mark adjacent cells
         }
     }
+
     // If there is a cell to the right
-    if(c1+1 <= c)
+    if(x+1 <= c)
     {
-        // If the cell to the right contains num
-        if(grid[r1][c1+1] == num)
+        // If the cell to the right is the same digit
+        if(grid[y][x+1] == digit)
         {
-            // Add this position to the PQ
-            pq.push(make_tuple(abs(r1-r2)+abs((c1+1) - c2), r1, c1+1));
+            grid[y][x+1] = area; // Mark the cell
+            mark(y, x+1, r, c, grid, digit, area); // Recursively mark adjacent cells
         }
     }
 
-    // While there are cells to investigate
-    while(!pq.empty())
-    {
-        // Get the cell at the top of the heap
-        tuple<int, int, int> t = pq.top();
-        pq.pop();
-
-        // If this cell has been found already
-        if(grid[get<1>(t)][get<2>(t)] == 'X')
-        {
-            continue;
-        }
-
-        // Set the cell to found
-        grid[get<1>(t)][get<2>(t)] = 'X';
-
-        // If we can get to the end via this cell
-        if(search(get<1>(t), get<2>(t), r2, c2, r, c, grid, num))
-        {
-            return true;
-        }
-    }
-
-    // If we can't get to the end via any cell
-    return false;
+    return;
 }
 
 int main()
@@ -95,70 +65,88 @@ int main()
     int r, c;
     cin >> r >> c;
 
-    // Get the grid
-    char grid[1001][1001];
+    // Store the grid, representing each cell with a string
+    string **grid = new string*[1001];
+
+    // For each row
     for(int i = 1; i <= r; i++)
     {
+        // Get the row
         string row;
         cin >> row;
 
+        // Create an array of strings to store each cell in this row
+        grid[i] = new string[1001];
+
+        // For each character in the string i.e. a cell
         for(int j = 1; j <= c; j++)
         {
+            // Convert the character to a string implicitly and put into the grid
             grid[i][j] = row[j-1];
+        }
+    }
+
+    // Maps area strings to the original digit string
+    map<string, string> areaToDigit;
+
+    int area = 2; // Number that represents the next area that's found
+    
+    // For each row in the grid
+    for(int i = 1; i <= r; i++)
+    {
+        // For each cell in the row
+        for(int j = 1; j <= c; j++)
+        {
+            // If the cell isn't in an area yet i.e. still 0 or 1
+            if(grid[i][j] == "0" || grid[i][j] == "1")
+            {
+                // Note the original digit
+                string digit = grid[i][j];
+
+                // Map this area (as a string) to the original digit (as a string)
+                areaToDigit[to_string(area)] = digit;
+
+                // Set this cell to be in the area
+                grid[i][j] = to_string(area);
+
+                // Mark surrounding cells as being in this area if they are
+                // the same digit as the original digit of this cell
+                mark(i, j, r, c, grid, digit, to_string(area));
+
+                // Increment the area number ready for the next area
+                area++;
+            }
         }
     }
 
     // Get the number of cases
     int n;
     cin >> n;
-    for(int m = 0; m < n; m++)
+    for(int i = 0; i < n; i++)
     {
         // Get the start and end coordinates
         int r1, c1, r2, c2;
         cin >> r1 >> c1 >> r2 >> c2;
 
-        // If there can't possibly be a path as the start and end are different
-        // digits
+        // If the start and end positions are in different areas
         if(grid[r1][c1] != grid[r2][c2])
         {
             cout << "neither" << endl;
             continue;
         }
-
-        char num = grid[r1][c1]; // Store the digit we're searching for
-        
-        // Create a copy of the grid we can modify
-        char **gridCopy = new char*[1001];
-        for(int i = 1; i <= r; i++)
+        // If both start and end positions are in the same area
+        else
         {
-            gridCopy[i] = new char[1001];
-            for(int j = 1; j <= c; j++)
-            {
-                gridCopy[i][j] = grid[i][j];
-            }
-        }
-
-        // Set the starting point as found
-        gridCopy[r1][c1] = 'X';
-
-        // If we can find a path from the start to the end
-        if(search(r1, c1, r2, c2, r, c, gridCopy, num))
-        {
-            // If the digit represents a binary user
-            if(num == '0')
+            // If the original digit represents a binary user
+            if(areaToDigit[grid[r1][c1]] == "0")
             {
                 cout << "binary" << endl;
             }
-            // If the digit represents decimal user
+            // If the original digit represents decimal user
             else
             {
                 cout << "decimal" << endl;
             }
-        }
-        // If we can't find a path from the start to the end
-        else
-        {
-            cout << "neither" << endl;
         }
     }
 
