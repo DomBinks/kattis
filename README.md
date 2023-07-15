@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 54
-##### Easy: 45
+### Problems solved: 55
+##### Easy: 46
 ##### Medium: 9
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-15 | [Solving for Carrots](https://open.kattis.com/problems/carrots/) | Easy(1.4) | [C++](./easy/carrots.cpp) | |
 | 2022-07-14 | [10 Kinds of People](https://open.kattis.com/problems/10kindsofpeople/) | Medium(5.1) | [C++](./medium/10kindsofpeople.cpp) | Flood fill |
 | 2022-07-14 | [Backspace](https://open.kattis.com/problems/backspace/) | Medium(3.1) | [C++](./medium/backspace.cpp) | |
 | 2022-07-13 | [CD](https://open.kattis.com/problems/cd/) | Medium(4.7) | [C++](./medium/cd.cpp) | |
