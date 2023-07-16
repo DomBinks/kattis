@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 56
+### Problems solved: 57
 ##### Easy: 46
-##### Medium: 10
+##### Medium: 11
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-16 | [Get Shorty](https://open.kattis.com/problems/getshorty/) | Medium(3.9) | [C++](./medium/getshorty.cpp) | Shortest path |
 | 2022-07-15 | [1-D Frogger (Easy)](https://open.kattis.com/problems/1dfroggereasy/) | Medium(3.4) | [C++](./medium/1dfroggereasy.cpp) | |
 | 2022-07-15 | [Solving for Carrots](https://open.kattis.com/problems/carrots/) | Easy(1.4) | [C++](./easy/carrots.cpp) | |
 | 2022-07-14 | [10 Kinds of People](https://open.kattis.com/problems/10kindsofpeople/) | Medium(5.1) | [C++](./medium/10kindsofpeople.cpp) | Flood fill |
