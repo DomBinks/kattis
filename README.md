@@ -2,14 +2,17 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 57
-##### Easy: 46
+### Problems solved: 60
+##### Easy: 49
 ##### Medium: 11
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-16 | [Bijele](https://open.kattis.com/problems/bijele/) | Easy(1.3) | [C++](./easy/bijele.cpp) | |
+| 2022-07-16 | [Digit Swap](https://open.kattis.com/problems/digitswap/) | Easy(1.3) | [C++](./easy/digitswap.cpp) | |
+| 2022-07-16 | [Eye of Sauron](https://open.kattis.com/problems/eyeofsauron/) | Easy(1.3) | [C++](./easy/eyeofsauron.cpp) | |
 | 2022-07-16 | [Get Shorty](https://open.kattis.com/problems/getshorty/) | Medium(3.9) | [C++](./medium/getshorty.cpp) | Shortest path |
 | 2022-07-15 | [1-D Frogger (Easy)](https://open.kattis.com/problems/1dfroggereasy/) | Medium(3.4) | [C++](./medium/1dfroggereasy.cpp) | |
 | 2022-07-15 | [Solving for Carrots](https://open.kattis.com/problems/carrots/) | Easy(1.4) | [C++](./easy/carrots.cpp) | |
