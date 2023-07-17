@@ -10,10 +10,11 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
-| 2022-07-16 | [Bijele](https://open.kattis.com/problems/bijele/) | Easy(1.3) | [C++](./easy/bijele.cpp) | |
-| 2022-07-16 | [Digit Swap](https://open.kattis.com/problems/digitswap/) | Easy(1.3) | [C++](./easy/digitswap.cpp) | |
-| 2022-07-16 | [Eye of Sauron](https://open.kattis.com/problems/eyeofsauron/) | Easy(1.3) | [C++](./easy/eyeofsauron.cpp) | |
-| 2022-07-16 | [Get Shorty](https://open.kattis.com/problems/getshorty/) | Medium(3.9) | [C++](./medium/getshorty.cpp) | Shortest path |
+| 2022-07-17 | [Bus Planning](https://open.kattis.com/problems/busplanning) | Hard(6.2) | [C++(Partial solution - Wrong answer)](./hard/busplanning.cpp) | |
+| 2022-07-17 | [Bijele](https://open.kattis.com/problems/bijele/) | Easy(1.3) | [C++](./easy/bijele.cpp) | |
+| 2022-07-17 | [Digit Swap](https://open.kattis.com/problems/digitswap/) | Easy(1.3) | [C++](./easy/digitswap.cpp) | |
+| 2022-07-17 | [Eye of Sauron](https://open.kattis.com/problems/eyeofsauron/) | Easy(1.3) | [C++](./easy/eyeofsauron.cpp) | |
+| 2022-07-17 | [Get Shorty](https://open.kattis.com/problems/getshorty/) | Medium(3.9) | [C++](./medium/getshorty.cpp) | Shortest path |
 | 2022-07-15 | [1-D Frogger (Easy)](https://open.kattis.com/problems/1dfroggereasy/) | Medium(3.4) | [C++](./medium/1dfroggereasy.cpp) | |
 | 2022-07-15 | [Solving for Carrots](https://open.kattis.com/problems/carrots/) | Easy(1.4) | [C++](./easy/carrots.cpp) | |
 | 2022-07-14 | [10 Kinds of People](https://open.kattis.com/problems/10kindsofpeople/) | Medium(5.1) | [C++](./medium/10kindsofpeople.cpp) | Flood fill |
