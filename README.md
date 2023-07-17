@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 60
+### Problems solved: 61
 ##### Easy: 49
-##### Medium: 11
+##### Medium: 12
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-18 | [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1/) | Medium(4.1) | [C++](./medium/basicprogramming1.cpp) | Big number |
 | 2022-07-17 | [Bus Planning](https://open.kattis.com/problems/busplanning) | Hard(6.2) | [C++(Partial solution - Wrong answer)](./hard/busplanning.cpp) | |
 | 2022-07-17 | [Bijele](https://open.kattis.com/problems/bijele/) | Easy(1.3) | [C++](./easy/bijele.cpp) | |
 | 2022-07-17 | [Digit Swap](https://open.kattis.com/problems/digitswap/) | Easy(1.3) | [C++](./easy/digitswap.cpp) | |
