@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2022-07-18 | [Adding Words](https://open.kattis.com/problems/addingwords/) | Medium(4.1) | [C++(Partial solution - Wrong answer)](./medium/addingwords.cpp) | |
 | 2022-07-18 | [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2/) | Medium(3.4) | [C++](./medium/basicprogramming2.cpp) | Binary Search |
 | 2022-07-18 | [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1/) | Medium(4.1) | [C++](./medium/basicprogramming1.cpp) | Big number |
 | 2022-07-17 | [Bus Planning](https://open.kattis.com/problems/busplanning) | Hard(6.2) | [C++(Partial solution - Wrong answer)](./hard/busplanning.cpp) | |
