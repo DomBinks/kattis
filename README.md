@@ -2,7 +2,7 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 63
+### Problems solved: 64
 ##### Easy: 49
 ##### Medium: 14
 ##### Hard: 0
@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-19 | [A1 Paper](https://open.kattis.com/problems/a1paper/) | Medium(4.1) | [C++](./medium/a1paper.cpp), [C++(Partial solution using DP - Runtime Error)](./medium/a1paper-dp.cpp) | Dynamic programming |
 | 2023-07-19 | [Almost Perfect](https://open.kattis.com/problems/almostperfect/) | Medium(3.5) | [C++](./medium/almostperfect.cpp) | Number theory, Divisors |
 | 2023-07-18 | [Adding Words](https://open.kattis.com/problems/addingwords/) | Medium(4.1) | [C++(Partial solution - Wrong answer)](./medium/addingwords.cpp) | |
 | 2023-07-18 | [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2/) | Medium(3.4) | [C++](./medium/basicprogramming2.cpp) | Binary Search |
