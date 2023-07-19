@@ -21,7 +21,7 @@ int main()
         // If the command is clear
         if(cmd == "clear")
         {
-            // Set both maps to empty maps
+            // Set clear both maps
             wordToNum.clear();
             numToWord.clear();
         }
@@ -31,8 +31,14 @@ int main()
             // Get the word and number to set that word to
             string word;
             int num;
-            cin >> word;
-            cin >> num;
+            cin >> word >> num;
+
+            // Remove the word if it's already in the maps
+            if(wordToNum.count(word) > 0)
+            {
+                numToWord.erase(wordToNum[word]);
+                wordToNum.erase(word);
+            }
 
             // Update the maps
             wordToNum[word] = num;
