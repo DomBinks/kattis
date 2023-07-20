@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 68
+### Problems solved: 69
 ##### Easy: 49
-##### Medium: 19
+##### Medium: 20
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-20 | [#include\<scoring>](https://open.kattis.com/problems/includescoring) | Medium(4.3) | [C++](./medium/includescoring.cpp) | Priority queue, Hash map |
 | 2023-07-20 | [Tenis](https://open.kattis.com/problems/tenis) | Medium(4.3) | [C++](./medium/tenis.cpp) | |
 | 2023-07-20 | [Ninety-nine](https://open.kattis.com/problems/ninetynine/) | Medium(1.2-3.3) | [C++](./medium/ninetynine.cpp) | Randomized algorithm |
 | 2023-07-20 | [Alex and Barb](https://open.kattis.com/problems/alexandbarb/) | Medium(3.7) | [C++](./medium/alexandbarb.cpp) | |
