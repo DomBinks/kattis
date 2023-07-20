@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 65
+### Problems solved: 66
 ##### Easy: 49
-##### Medium: 16
+##### Medium: 17
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-29 | [Alex and Barb](https://open.kattis.com/problems/alexandbarb/) | Medium(3.7) | [C++](./medium/alexandbarb.cpp) | |
 | 2023-07-19 | [Adding Words](https://open.kattis.com/problems/addingwords/) | Medium(4.2) | [C++](./medium/addingwords.cpp) | |
 | 2023-07-19 | [A1 Paper](https://open.kattis.com/problems/a1paper/) | Medium(4.1) | [C++](./medium/a1paper.cpp), [C++(Partial solution using DP - Runtime Error)](./medium/a1paper-dp.cpp) | Dynamic programming |
 | 2023-07-19 | [Almost Perfect](https://open.kattis.com/problems/almostperfect/) | Medium(3.5) | [C++](./medium/almostperfect.cpp) | Number theory, Divisors |
