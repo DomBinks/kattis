@@ -2,14 +2,22 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 70
-##### Easy: 49
+### Problems solved: 78
+##### Easy: 57
 ##### Medium: 21
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-21 | [Trik](https://open.kattis.com/problems/trik/) | Easy(1.4) | [C++](./easy/trik.cpp) | |
+| 2023-07-21 | [Two-sum](https://open.kattis.com/problems/twosum/) | Easy(1.4) | [C++](./easy/twosum.cpp) | |
+| 2023-07-21 | [Autori](https://open.kattis.com/problems/autori/) | Easy(1.3) | [C++](./easy/autori.cpp) | |
+| 2023-07-21 | [Adding Trouble](https://open.kattis.com/problems/addingtrouble/) | Easy(1.3) | [C++](./easy/addingtrouble.cpp) | |
+| 2023-07-21 | [Add Two Numbers](https://open.kattis.com/problems/addtwonumbers/) | Easy(1.3) | [C++](./easy/addtwonumbers.cpp) | |
+| 2023-07-21 | [Chanukah Challenge](https://open.kattis.com/problems/chanukah/) | Easy(1.3) | [C++](./easy/chanukah.cpp) | |
+| 2023-07-21 | [IsItHalloween.com](https://open.kattis.com/problems/isithalloween/) | Easy(1.3) | [C++](./easy/isithalloween.cpp) | |
+| 2023-07-21 | [Odd Echo](https://open.kattis.com/problems/oddecho/) | Easy(1.3) | [C++](./easy/oddecho.cpp) | |
 | 2023-07-21 | [Coin Stacks](https://open.kattis.com/problems/coinstacks/) | Medium(4.1) | [C++](./medium/coinstacks.cpp) | Priority queue |
 | 2023-07-20 | [#include\<scoring>](https://open.kattis.com/problems/includescoring/) | Medium(4.3) | [C++](./medium/includescoring.cpp) | Priority queue, Hash map |
 | 2023-07-20 | [Tenis](https://open.kattis.com/problems/tenis/) | Medium(4.3) | [C++](./medium/tenis.cpp) | |
