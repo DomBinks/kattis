@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 78
+### Problems solved: 79
 ##### Easy: 57
-##### Medium: 21
+##### Medium: 22
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-21 | [BizzFuzz](https://open.kattis.com/problems/bizzfuzz/) | Medium(1.8-4.3) | [C++](./medium/bizzfuzz.cpp) | Number theory, GCD |
 | 2023-07-21 | [Trik](https://open.kattis.com/problems/trik/) | Easy(1.4) | [C++](./easy/trik.cpp) | |
 | 2023-07-21 | [Two-sum](https://open.kattis.com/problems/twosum/) | Easy(1.4) | [C++](./easy/twosum.cpp) | |
 | 2023-07-21 | [Autori](https://open.kattis.com/problems/autori/) | Easy(1.3) | [C++](./easy/autori.cpp) | |
