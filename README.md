@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 79
+### Problems solved: 80
 ##### Easy: 57
-##### Medium: 22
+##### Medium: 23
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-22 | [Counting Chocolate](https://open.kattis.com/problems/countingchocolate/) | Medium(4.2) | [C++](./medium/countingchocolate.cpp) | Dynamic programming |
 | 2023-07-22 | [Prosjek](https://open.kattis.com/problems/prosjek) | Medium(4.9) | [C++ (Partial solution - Wrong Answer)](./medium/prosjek.cpp) | Big number |
 | 2023-07-21 | [BizzFuzz](https://open.kattis.com/problems/bizzfuzz/) | Medium(1.8-4.3) | [C++](./medium/bizzfuzz.cpp) | Number theory, GCD |
 | 2023-07-21 | [Trik](https://open.kattis.com/problems/trik/) | Easy(1.4) | [C++](./easy/trik.cpp) | |
