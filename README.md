@@ -10,6 +10,7 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-22 | [Prosjek](https://open.kattis.com/problems/prosjek) | Medium(4.9) | [C++ (Partial solution - Wrong Answer)](./medium/prosjek.cpp) | Big number |
 | 2023-07-21 | [BizzFuzz](https://open.kattis.com/problems/bizzfuzz/) | Medium(1.8-4.3) | [C++](./medium/bizzfuzz.cpp) | Number theory, GCD |
 | 2023-07-21 | [Trik](https://open.kattis.com/problems/trik/) | Easy(1.4) | [C++](./easy/trik.cpp) | |
 | 2023-07-21 | [Two-sum](https://open.kattis.com/problems/twosum/) | Easy(1.4) | [C++](./easy/twosum.cpp) | |
