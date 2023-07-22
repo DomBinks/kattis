@@ -2,10 +2,15 @@
 
 using namespace std;
 
+long gcd(long a, long b)
+{
+    return b == 0 ? a : gcd(b, a % b);
+}
+
 int main()
 {
-    long p = 1; // Stores the number of sheets needed
-    long t; // Stores an integer that's a multiple of the input real
+    long t; // Stores the target number to get to 
+    long p = 1; // Stores the target number of sheets to get to
 
     cin >> t; // Get the first digit
 
@@ -15,20 +20,19 @@ int main()
     long q; // Get the digits after the decimal point
     cin >> q;
 
-    // While the first digit part is less than the part after the decimal
-    while(t < q)
-    {
-        t *= 10; // Increase the first digit part by a column
-        p *= 10; // Increase the number of sheets needed by a column
-    }
-    // If the decmial part is > 0
-    if(q > 0)
+    // Move t up to make space for q after
+    for(int x = q; x > 0; x /= 10)
     {
         t *= 10; // Increase the first digit part by a column
         p *= 10; // Increase the number of sheets needed by a column
     }
 
     t += q; // Add the part after the decimal point to the first part
+
+    // Minimise t and p by dividing by the gcd
+    long g = gcd(t, p);
+    t /= g;
+    p /= g;
 
     // Gives the real as a long integer
 
@@ -38,6 +42,7 @@ int main()
     // For each paper number
     for(int i = 5; i > 0; i--)
     {
+        // Produce as much of the target using this number as possible
         papers[i] = t / i;
         count += papers[i];
         t = t % i;
@@ -48,21 +53,28 @@ int main()
     // While we need extra sheets
     while(count < p)
     {
-        // If there are no papers left of this number
-        if(papers[i] == 0)
+        // If we can get all the extra sheets by removing papers of number i
+        if(count + papers[i] >= p)
         {
-            // Move to papers of the next number
-            i--;
+            // Convert enough papers of number i to papers of i-1 and 1
+            papers[i] -= (p - count);
+            papers[i-1] += (p - count);
+            papers[1] += (p - count);
+            count += (p - count);
         }
+        // If we can't get all the extra sheets by removing papers of number i
         else
         {
-            // Add an extra sheet by using a sheet of number 1 less and a sheet
-            // of number 1
+            // Convert all papers of number i to papers of i-1 and 1
+            papers[i-1] += papers[i];
+            papers[1] += papers[i];
+            count += papers[i];
 
-            papers[i]--; // Remove a sheet of size i
-            papers[i-1]++; // Add a sheet of the next size down
-            papers[1]++; // Add a sheet of size 1
-            count++; // Increment the sheets used by 1
+            // Remove all the papers of number i
+            papers[i] = 0;
+
+            // Get the next i number
+            i--;
         }
     }
 
