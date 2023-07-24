@@ -10,9 +10,10 @@ This repository contains my solutions to various Kattis problems.
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-24 | [Restaurant Orders](https://open.kattis.com/problems/orders/) | Medium(5.3) | Unsolved | Dynamic Programming |
 | 2023-07-23 | [Integer Lists](https://open.kattis.com/problems/integerlists/) | Medium(5.2) | [C++](./medium/integerlists.cpp) | |
 | 2023-07-22 | [Counting Chocolate](https://open.kattis.com/problems/countingchocolate/) | Medium(4.2) | [C++](./medium/countingchocolate.cpp) | Dynamic programming |
-| 2023-07-22 | [Prosjek](https://open.kattis.com/problems/prosjek) | Medium(4.9) | [C++ (Partial solution - Wrong Answer)](./medium/prosjek.cpp) | Big number |
+| 2023-07-22 | [Prosjek](https://open.kattis.com/problems/prosjek) | Medium(4.9) | Unsolved | Big number |
 | 2023-07-21 | [BizzFuzz](https://open.kattis.com/problems/bizzfuzz/) | Medium(1.8-4.3) | [C++](./medium/bizzfuzz.cpp) | Number theory, GCD |
 | 2023-07-21 | [Trik](https://open.kattis.com/problems/trik/) | Easy(1.4) | [C++](./easy/trik.cpp) | |
 | 2023-07-21 | [Two-sum](https://open.kattis.com/problems/twosum/) | Easy(1.4) | [C++](./easy/twosum.cpp) | |
@@ -32,7 +33,7 @@ This repository contains my solutions to various Kattis problems.
 | 2023-07-19 | [Almost Perfect](https://open.kattis.com/problems/almostperfect/) | Medium(3.5) | [C++](./medium/almostperfect.cpp) | Number theory, Divisors |
 | 2023-07-18 | [Basic Programming 2](https://open.kattis.com/problems/basicprogramming2/) | Medium(3.4) | [C++](./medium/basicprogramming2.cpp) | Binary Search |
 | 2023-07-18 | [Basic Programming 1](https://open.kattis.com/problems/basicprogramming1/) | Medium(4.1) | [C++](./medium/basicprogramming1.cpp) | Big number |
-| 2023-07-17 | [Bus Planning](https://open.kattis.com/problems/busplanning) | Hard(6.2) | [C++(Partial solution - Wrong answer)](./hard/busplanning.cpp) | |
+| 2023-07-17 | [Bus Planning](https://open.kattis.com/problems/busplanning) | Hard(6.2) | Unsolved | |
 | 2023-07-17 | [Bijele](https://open.kattis.com/problems/bijele/) | Easy(1.3) | [C++](./easy/bijele.cpp) | |
 | 2023-07-17 | [Digit Swap](https://open.kattis.com/problems/digitswap/) | Easy(1.3) | [C++](./easy/digitswap.cpp) | |
 | 2023-07-17 | [Eye of Sauron](https://open.kattis.com/problems/eyeofsauron/) | Easy(1.3) | [C++](./easy/eyeofsauron.cpp) | |
