@@ -2,16 +2,17 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 83
-##### Easy: 58
+### Problems solved: 84
+##### Easy: 59
 ##### Medium: 25
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-25 | [Simon Says](https://open.kattis.com/problems/simon/) | Easy(2.7) | [C++](./easy/simon.cpp) | String parsing |
 | 2023-07-25 | [Couting Stars](https://open.kattis.com/problems/countingstars/) | Medium(3.0) | [C++](./medium/countingstars.cpp) | Flood fill |
-| 2023-07-25 | [Above Average](https://open.kattis.com/problems/aboveaverage/) | Easy(2.7) | [C++](./easy/aboveaverage.cpp) | |
+| 2023-07-25 | [Above Average](https://open.kattis.com/problems/aboveaverage/) | Easy(2.7) | [C++](./easy/aboveaverage.cpp) | Decimals |
 | 2023-07-24 | [Restaurant Orders](https://open.kattis.com/problems/orders/) | Medium(5.3) | Unsolved | Dynamic Programming |
 | 2023-07-23 | [Integer Lists](https://open.kattis.com/problems/integerlists/) | Medium(5.2) | [C++](./medium/integerlists.cpp) | |
 | 2023-07-22 | [Counting Chocolate](https://open.kattis.com/problems/countingchocolate/) | Medium(4.2) | [C++](./medium/countingchocolate.cpp) | Dynamic programming |
