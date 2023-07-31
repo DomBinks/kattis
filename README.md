@@ -2,14 +2,18 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 84
-##### Easy: 59
-##### Medium: 25
+### Problems solved: 88
+##### Easy: 61
+##### Medium: 27
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-07-31 | [Rock-Paper-Scissors Tournament](https://open.kattis.com/problems/rockpaperscissors/) | Medium(4.1) | [C++](./medium/rockpaperscissors.cpp) | Decimals |
+| 2023-07-31 | [4 thought](https://open.kattis.com/problems/4thought/) | Medium(2.9) | [C++](./medium/4thought.cpp) | Brute force |
+| 2023-07-31 | [What does the fox say?](https://open.kattis.com/problems/whatdoesthefoxsay/) | Easy(2.3) | [C++](./easy/whatdoesthefoxsay.cpp) | String parsing |
+| 2023-07-31 | [Moscow Dream](https://open.kattis.com/problems/moscowdream/) | Easy(2.2) | [C++](./easy/moscowdream.cpp) | |
 | 2023-07-25 | [Simon Says](https://open.kattis.com/problems/simon/) | Easy(2.7) | [C++](./easy/simon.cpp) | String parsing |
 | 2023-07-25 | [Couting Stars](https://open.kattis.com/problems/countingstars/) | Medium(3.0) | [C++](./medium/countingstars.cpp) | Flood fill |
 | 2023-07-25 | [Above Average](https://open.kattis.com/problems/aboveaverage/) | Easy(2.7) | [C++](./easy/aboveaverage.cpp) | Decimals |
