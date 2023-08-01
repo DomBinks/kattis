@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 88
+### Problems solved: 89
 ##### Easy: 61
-##### Medium: 27
+##### Medium: 28
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-01 | [Grandpa Bernie](https://open.kattis.com/problems/grandpabernie/) | Medium(3.2) | [C++](./medium/grandpabernie.cpp) | Hash map |
 | 2023-07-31 | [Rock-Paper-Scissors Tournament](https://open.kattis.com/problems/rockpaperscissors/) | Medium(4.1) | [C++](./medium/rockpaperscissors.cpp) | Decimals |
 | 2023-07-31 | [4 thought](https://open.kattis.com/problems/4thought/) | Medium(2.9) | [C++](./medium/4thought.cpp) | Brute force |
 | 2023-07-31 | [What does the fox say?](https://open.kattis.com/problems/whatdoesthefoxsay/) | Easy(2.3) | [C++](./easy/whatdoesthefoxsay.cpp) | String parsing |
