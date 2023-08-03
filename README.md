@@ -2,14 +2,20 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 90
-##### Easy: 61
-##### Medium: 29
+### Problems solved: 96
+##### Easy: 63
+##### Medium: 33
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-03 | [Ads](https://open.kattis.com/problems/ads/) | Medium(4.4) | [C++](./medium/ads.cpp) | Geometry, Recursion |
+| 2023-08-03 | [Accounting](https://open.kattis.com/problems/bokforing/) | Medium(3.8) | [C++](./medium/bokforing.cpp) | Hash map |
+| 2023-08-03 | [Cryptographic Keys](https://open.kattis.com/problems/crypto/) | Medium(4.1) | [C++](./medium/crypto.cpp) | Number theory, Prime factors |
+| 2023-08-03 | [Alien Math](https://open.kattis.com/problems/alienmath/) | Medium(3.1) | [C++](./medium/alienmath.cpp) | Hash map |
+| 2023-08-03 | [A Prize No One Can Win](https://open.kattis.com/problems/aprizenoonecanwin/) | Easy(2.7) | [C++](./easy/aprizenoonecanwin.cpp) | Sliding window |
+| 2023-08-03 | [ACM Contest Scoring](https://open.kattis.com/problems/acm/) | Easy(1.8) | [C++](./easy/acm.cpp) | Hash map |
 | 2023-08-02 | [Phone List](https://open.kattis.com/problems/phonelist/) | Medium(3.8) | [C++](./medium/phonelist.cpp) | Hash map, String |
 | 2023-08-01 | [Grandpa Bernie](https://open.kattis.com/problems/grandpabernie/) | Medium(3.2) | [C++](./medium/grandpabernie.cpp) | Hash map |
 | 2023-07-31 | [Rock-Paper-Scissors Tournament](https://open.kattis.com/problems/rockpaperscissors/) | Medium(4.1) | [C++](./medium/rockpaperscissors.cpp) | Decimals |
