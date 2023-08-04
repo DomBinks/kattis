@@ -4,12 +4,13 @@ This repository contains my solutions to various Kattis problems.
 <br>
 ### Problems solved: 96
 ##### Easy: 63
-##### Medium: 33
+##### Medium: 34
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-04 | [Alphabet](https://open.kattis.com/problems/alphabet/) | Medium(3.4) | [C++](./medium/alphabet.cpp) | Dynamic programming, Longest increasing subsequence |
 | 2023-08-03 | [Ads](https://open.kattis.com/problems/ads/) | Medium(4.4) | [C++](./medium/ads.cpp) | Geometry, Recursion |
 | 2023-08-03 | [Accounting](https://open.kattis.com/problems/bokforing/) | Medium(3.8) | [C++](./medium/bokforing.cpp) | Hash map |
 | 2023-08-03 | [Cryptographic Keys](https://open.kattis.com/problems/crypto/) | Medium(4.1) | [C++](./medium/crypto.cpp) | Number theory, Prime factors |
