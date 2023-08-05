@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 99
-##### Easy: 63
+### Problems solved: 100
+##### Easy: 64
 ##### Medium: 36
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-05 | [One Chicken Per Person!](https://open.kattis.com/problems/onechicken/) | Easy(1.9) | [C++](./easy/onechicken.cpp) | |
 | 2023-08-05 | [Eight Queens](https://open.kattis.com/problems/8queens/) | Medium(2.9) | [C++](./medium/8queens.cpp) | Geometry |
 | 2023-08-05 | [Guess the Number](https://open.kattis.com/problems/guess/) | Medium(3.0) | [C++](./medium/guess.cpp) | Interactive, Binary search |
 | 2023-08-04 | [Alphabet](https://open.kattis.com/problems/alphabet/) | Medium(3.4) | [C++](./medium/alphabet.cpp) | Dynamic programming, Longest increasing subsequence |
