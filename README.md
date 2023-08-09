@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 101
-##### Easy: 65
+### Problems solved: 102
+##### Easy: 66
 ##### Medium: 36
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-09 | [Akcija](https://open.kattis.com/problems/akcija/) | Easy(2.5) | [C++](./easy/akcija.cpp) | |
 | 2023-08-06 | [Black Friday](https://open.kattis.com/problems/blackfriday/) | Easy(2.5) | [C++](./easy/blackfriday.cpp) | Hash map |
 | 2023-08-05 | [One Chicken Per Person!](https://open.kattis.com/problems/onechicken/) | Easy(1.9) | [C++](./easy/onechicken.cpp) | |
 | 2023-08-05 | [Eight Queens](https://open.kattis.com/problems/8queens/) | Medium(2.9) | [C++](./medium/8queens.cpp) | Geometry |
