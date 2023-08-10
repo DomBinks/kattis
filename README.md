@@ -2,14 +2,17 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 102
-##### Easy: 66
-##### Medium: 36
+### Problems solved: 105
+##### Easy: 67
+##### Medium: 38
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-10 | [Disastrous Downtime](https://open.kattis.com/problems/downtime/) | Medium(3.3) | [C++](./medium/downtime.cpp) | Queue |
+| 2023-08-10 | [Bing It On](https://open.kattis.com/problems/bing/) | Medium(3.0) | [C++](./medium/bing.cpp) | Hash map, String |
+| 2023-08-10 | [Engineering English](https://open.kattis.com/problems/engineeringenglish/) | Easy(2.4) | [C++](./easy/engineeringenglish.cpp) | Hash map, String |
 | 2023-08-09 | [Akcija](https://open.kattis.com/problems/akcija/) | Easy(2.5) | [C++](./easy/akcija.cpp) | |
 | 2023-08-06 | [Black Friday](https://open.kattis.com/problems/blackfriday/) | Easy(2.5) | [C++](./easy/blackfriday.cpp) | Hash map |
 | 2023-08-05 | [One Chicken Per Person!](https://open.kattis.com/problems/onechicken/) | Easy(1.9) | [C++](./easy/onechicken.cpp) | |
