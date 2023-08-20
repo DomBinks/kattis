@@ -2,14 +2,15 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 105
-##### Easy: 67
+### Problems solved: 106
+##### Easy: 68
 ##### Medium: 38
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-20 | [Babelfish](https://open.kattis.com/problems/babelfish/) | Easy(2.6) | [C++](./easy/babelfish.cpp) | Hash map |
 | 2023-08-10 | [Disastrous Downtime](https://open.kattis.com/problems/downtime/) | Medium(3.3) | [C++](./medium/downtime.cpp) | Queue |
 | 2023-08-10 | [Bing It On](https://open.kattis.com/problems/bing/) | Medium(3.0) | [C++](./medium/bing.cpp) | Hash map, String |
 | 2023-08-10 | [Engineering English](https://open.kattis.com/problems/engineeringenglish/) | Easy(2.4) | [C++](./easy/engineeringenglish.cpp) | Hash map, String |
