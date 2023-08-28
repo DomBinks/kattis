@@ -2,14 +2,17 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 109
-##### Easy: 70
-##### Medium: 39
+### Problems solved: 112
+##### Easy: 72
+##### Medium: 40
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-08-28 | [Square Deal](https://open.kattis.com/problems/squaredeal/) | Medium(4.3) | [C++](./medium/squaredeal.cpp) | Sorting |
+| 2023-08-28 | [Hidden Password](https://open.kattis.com/problems/hidden/) | Easy(2.5) | [C++](./easy/hidden.cpp) | Hash map |
+| 2023-08-28 | [Line Them Up](https://open.kattis.com/problems/lineup/) | Easy(1.8) | [C++](./easy/lineup.cpp) | |
 | 2023-08-22 | [Where's My Internet??](https://open.kattis.com/problems/wheresmyinternet/) | Medium(2.9) | [C++](./medium/wheresmyinternet.cpp) | Hash map, Linked list |
 | 2023-08-22 | [Shopaholic](https://open.kattis.com/problems/shopaholic/) | Easy(2.3) | [C++](./easy/shopaholic.cpp) | Big number |
 | 2023-08-20 | [Parsing Hex](https://open.kattis.com/problems/parsinghex/) | Easy(2.7) | [C++](./easy/parsinghex.cpp) | |
