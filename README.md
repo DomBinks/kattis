@@ -2,14 +2,17 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 112
-##### Easy: 72
-##### Medium: 40
+### Problems solved: 115
+##### Easy: 74
+##### Medium: 41
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-09-07 | [Simple Addition](https://open.kattis.com/problems/simpleaddition/) | Easy(2.1) | [C++](./easy/simpleaddition.cpp) | Reverse interator |
+| 2023-09-07 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz2/) | Medium(3.2) | [C++](./medium/fizzbuzz2.cpp) | |
+| 2023-09-07 | [DVDs](https://open.kattis.com/problems/dvds/) | Medium(2.8) | [C++](./medium/dvds.cpp) |  |
 | 2023-08-28 | [Square Deal](https://open.kattis.com/problems/squaredeal/) | Medium(4.3) | [C++](./medium/squaredeal.cpp) | Sorting |
 | 2023-08-28 | [Hidden Password](https://open.kattis.com/problems/hidden/) | Easy(2.5) | [C++](./easy/hidden.cpp) | Hash map |
 | 2023-08-28 | [Line Them Up](https://open.kattis.com/problems/lineup/) | Easy(1.8) | [C++](./easy/lineup.cpp) | |
