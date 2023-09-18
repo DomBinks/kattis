@@ -2,14 +2,19 @@
 This repository contains my solutions to various Kattis problems.
 <br>[Link to my account (DomBinks)](https://open.kattis.com/users/dombinks/)<br>
 <br>
-### Problems solved: 115
-##### Easy: 74
-##### Medium: 41
+### Problems solved: 120
+##### Easy: 78
+##### Medium: 42
 ##### Hard: 0
 <br>
 
 | Date |  Name | Difficulty | Solution | Notes |
 | ---- |  ---- | ---------- | -------- | ----- |
+| 2023-09-18 | [Game of Throwns](https://open.kattis.com/problems/throwns/) | Easy(2.7) | [C++](./easy/throwns.cpp) | |
+| 2023-09-18 | [Verify This, Your Majesty](https://open.kattis.com/problems/queens/) | Medium(2.8) | [C++](./medium/queens.cpp) | Matrix |
+| 2023-09-18 | [Mylla](https://open.kattis.com/problems/mylla2/) | Easy(2.0) | [C++](./easy/mylla2.cpp) | Matrix |
+| 2023-09-18 | [Tajna](https://open.kattis.com/problems/tajna/) | Easy(2.1) | [C++](./easy/tajna.cpp) | Matrix |
+| 2023-09-18 | [Laptop Sticker](https://open.kattis.com/problems/laptopsticker) | Easy(1.5) | [C++](./easy/laptopsticker.cpp) | |
 | 2023-09-07 | [Simple Addition](https://open.kattis.com/problems/simpleaddition/) | Easy(2.1) | [C++](./easy/simpleaddition.cpp) | Reverse interator |
 | 2023-09-07 | [FizzBuzz](https://open.kattis.com/problems/fizzbuzz2/) | Medium(3.2) | [C++](./medium/fizzbuzz2.cpp) | |
 | 2023-09-07 | [DVDs](https://open.kattis.com/problems/dvds/) | Medium(2.8) | [C++](./medium/dvds.cpp) |  |
@@ -26,7 +31,7 @@ This repository contains my solutions to various Kattis problems.
 | 2023-08-09 | [Akcija](https://open.kattis.com/problems/akcija/) | Easy(2.5) | [C++](./easy/akcija.cpp) | |
 | 2023-08-06 | [Black Friday](https://open.kattis.com/problems/blackfriday/) | Easy(2.5) | [C++](./easy/blackfriday.cpp) | Hash map |
 | 2023-08-05 | [One Chicken Per Person!](https://open.kattis.com/problems/onechicken/) | Easy(1.9) | [C++](./easy/onechicken.cpp) | |
-| 2023-08-05 | [Eight Queens](https://open.kattis.com/problems/8queens/) | Medium(2.9) | [C++](./medium/8queens.cpp) | Geometry |
+| 2023-08-05 | [Eight Queens](https://open.kattis.com/problems/8queens/) | Medium(2.9) | [C++](./medium/8queens.cpp) | Matrix |
 | 2023-08-05 | [Guess the Number](https://open.kattis.com/problems/guess/) | Medium(3.0) | [C++](./medium/guess.cpp) | Interactive, Binary search |
 | 2023-08-04 | [Alphabet](https://open.kattis.com/problems/alphabet/) | Medium(3.4) | [C++](./medium/alphabet.cpp) | Dynamic programming, Longest increasing subsequence |
 | 2023-08-03 | [Ads](https://open.kattis.com/problems/ads/) | Medium(4.4) | [C++](./medium/ads.cpp) | Geometry, Recursion |
